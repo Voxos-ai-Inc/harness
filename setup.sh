@@ -3,9 +3,9 @@
 # Installs hooks, skills, memory, and templates into your project.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/voxos-ai/harness/main/setup.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Voxos-ai-Inc/harness/main/setup.sh | bash
 #   — or —
-#   git clone https://github.com/voxos-ai/harness.git && cd harness && bash setup.sh
+#   git clone https://github.com/Voxos-ai-Inc/harness.git && cd harness && bash setup.sh
 #
 # Prerequisites: jq, git, bash
 
@@ -39,7 +39,7 @@ if [ ! -d "$SCRIPT_DIR/hooks" ]; then
   # Running via curl pipe — download to temp
   info "Downloading harness files..."
   TMPDIR=$(mktemp -d)
-  git clone --depth 1 https://github.com/voxos-ai/harness.git "$TMPDIR/harness" 2>/dev/null
+  git clone --depth 1 https://github.com/Voxos-ai-Inc/harness.git "$TMPDIR/harness" 2>/dev/null
   SCRIPT_DIR="$TMPDIR/harness"
 fi
 

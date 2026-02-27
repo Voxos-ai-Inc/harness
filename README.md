@@ -23,7 +23,7 @@ Claude Code is powerful out of the box. The harness makes it *disciplined* — e
 Open Claude Code in your project and say:
 
 ```
-Install the Claude Code Harness from github.com/voxos-ai/harness
+Install the Claude Code Harness from github.com/Voxos-ai-Inc/harness
 ```
 
 Claude Code will clone the repo, run the setup script, fill in your project-specific template variables, and verify the installation. The agent follows [`SETUP.md`](SETUP.md) to handle everything including the configuration that manual setup leaves for you to do by hand.
@@ -32,7 +32,7 @@ Claude Code will clone the repo, run the setup script, fill in your project-spec
 
 ```bash
 # Clone and install into your project
-git clone https://github.com/voxos-ai/harness.git /tmp/harness
+git clone https://github.com/Voxos-ai-Inc/harness.git /tmp/harness
 cd /path/to/your/project
 bash /tmp/harness/setup.sh
 ```
@@ -40,7 +40,7 @@ bash /tmp/harness/setup.sh
 Or run directly:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/voxos-ai/harness/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Voxos-ai-Inc/harness/main/setup.sh | bash
 ```
 
 The setup script:
